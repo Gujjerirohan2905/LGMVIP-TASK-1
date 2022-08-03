@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100%;
+    background-color: lavenderblush;
+    box-sizing: border-box;
+    border: 4px double black;
+}
+
+h1
+{
+	color: black;
+	font-size: 2.5rem;
+	font-weight: 50;
+	text-align: center;
+	margin: 1rem 0 3rem; 
+	font-family: serif;
+    text-decoration: underline;
+}
+.inputDiv{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 5px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.add{
+	outline: none;
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 5px;
+    width: 50px;
+    background-color: lightblue;
+    color: black;
+    cursor: pointer;
+    transition: .5s;
+    margin: 0.25rem;
+    font-family: serif;
+}
+
+.add:hover{
+	background-color: lightcoral;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.item{
+	padding: 0.5rem;
+	border-bottom: 4px solid #fff;
+	margin-bottom: 1.5rem;
+}
+
+.item_input{
+    padding: 0.5rem 1rem;
+    outline: none;
+    border: 1px solid black;
+    height: 50px;
+    border-radius: 5px;
+    width: 350px;
+    margin: 0.25rem;
+    transition: .5s;
+    font-size: 1.15rem;
+    font-family: serif;
+
+}
+.remove{
+    height: 50px;
+    width: 50px;
+	background: rgba(255,0, 0, 0.5);
+    border: 1px solid black;
+    border-radius: 5px;
+	outline: none;
+	color: black;
+	font-size: 1.4rem;
+	font-family: 'Hind', sans-serif;
+	cursor: pointer;
+}
+.remove:hover{
+    transition-duration: 1s;
+    background-color: red;
+}
